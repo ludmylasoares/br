@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/typing/typing.js",
+              "node_modules/particles.js/js/scripts.min.js",
+              "node_modules/particles.js/js/particles-settings.js",
+              "node_modules/particles.js/js/particles.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -118,7 +124,8 @@
             }
           }
         }
+        }
       }
-    }},
+    },
   "defaultProject": "br"
 }
